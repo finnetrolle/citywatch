@@ -1,0 +1,582 @@
+{
+  "services": [
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Сервис подписки",
+      "hosts": [
+        "http://10.2.53.92",
+        "http://10.2.53.138"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Сервис поиска",
+      "hosts": [
+        "http://10.2.53.84"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Сервис пользовательских подписок",
+      "hosts": [
+        "http://10.2.64.115"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Сервис аудита",
+      "hosts": [
+        "http://10.2.64.115"
+      ],
+      "port": 8085
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Связь-банк эквайринг",
+      "hosts": [
+        "http://10.2.64.115"
+      ],
+      "port": 8081
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Сбербанк эквайринг",
+      "hosts": [
+        "http://10.2.64.115"
+      ],
+      "port": 8082
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Rabbit server",
+      "hosts": [
+        "http://10.2.64.242"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Сервис Личного Кабинета Издателя",
+      "hosts": [
+        "http://10.2.53.109"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Сервис Подписного Каталога",
+      "hosts": [
+        "http://10.2.53.110"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Бекофис подписного каталога",
+      "hosts": [
+        "http://10.2.53.136"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Сервис контрагентов",
+      "hosts": [
+        "http://10.2.53.173"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Онлайн-подписка",
+      "hosts": [
+        "http://10.2.64.118"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Морфер",
+      "hosts": [
+        "http://10.2.53.205"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "DEV",
+      "zone": "INT",
+      "name": "Казанское ПО (электронный оффлайн-каталог)",
+      "hosts": [
+        "http://10.2.53.218"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис подписки",
+      "hosts": [
+        "http://10.2.60.75",
+        "http://10.2.60.76"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис справочной информации (НСИ)",
+      "hosts": [
+        "http://10.2.60.77",
+        "http://10.2.60.78"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис трактовок",
+      "hosts": [
+        "http://10.2.60.77",
+        "http://10.2.60.78"
+      ],
+      "port": 8081
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис поиска",
+      "hosts": [
+        "http://10.2.60.230"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис пользовательских подписок",
+      "hosts": [
+        "http://10.2.60.253",
+        "http://10.2.60.254"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис аудита эквайринга",
+      "hosts": [
+        "http://10.2.60.253",
+        "http://10.2.60.254"
+      ],
+      "port": 8085
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Связь-банк эквайринг",
+      "hosts": [
+        "http://10.2.60.253",
+        "http://10.2.60.254"
+      ],
+      "port": 8081
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сбербанк эквайринг",
+      "hosts": [
+        "http://10.2.60.253",
+        "http://10.2.60.254"
+      ],
+      "port": 8082
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Эквайринг подарочных карт",
+      "hosts": [
+        "http://10.2.60.253",
+        "http://10.2.60.254"
+      ],
+      "port": 8083
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Почта банк эквайринг",
+      "hosts": [
+        "http://10.2.60.253",
+        "http://10.2.60.254"
+      ],
+      "port": 8084
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Rabbitmq-server сервиса пользовательских подписок",
+      "hosts": [
+        "http://10.2.62.210",
+        "http://10.2.62.211"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Elasticsearch сервиса подписки",
+      "hosts": [
+        "http://10.2.60.231",
+        "http://10.2.60.232"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Дерево добра",
+      "hosts": [
+        "http://10.2.62.214",
+        "http://10.2.62.215"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис уведомлений",
+      "hosts": [
+        "http://10.2.62.216",
+        "http://10.2.62.217"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис подарочных карт",
+      "hosts": [
+        "http://10.2.62.218",
+        "http://10.2.62.219"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Онлайн-реклама",
+      "hosts": [
+        "http://10.2.62.221",
+        "http://10.2.62.222"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис Личного Кабинета Издателя",
+      "hosts": [
+        "http://10.2.60.70",
+        "http://10.2.60.71"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис Подписного Каталога",
+      "hosts": [
+        "http://10.2.60.68",
+        "http://10.2.60.69"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Бекофис подписного каталога",
+      "hosts": [
+        "http://10.2.60.66",
+        "http://10.2.60.67"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сервис контрагентов",
+      "hosts": [
+        "http://10.2.60.228",
+        "http://10.2.60.229"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Онлайн-подписка",
+      "hosts": [
+        "http://10.2.60.240",
+        "http://10.2.60.241"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Сесссионый кеш онлайн-каталога",
+      "hosts": [
+        "http://10.2.60.249",
+        "http://10.2.60.250"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Elasticsearch онлайн-каталога",
+      "hosts": [
+        "http://10.2.60.251",
+        "http://10.2.60.252"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Морфер",
+      "hosts": [
+        "http://10.2.60.226",
+        "http://10.2.60.227"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "PRD",
+      "zone": "INT",
+      "name": "Файловое хранилище подписки",
+      "hosts": [
+        "http://10.2.60.74",
+        "http://10.2.60.73"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис подписки",
+      "hosts": [
+        "http://10.2.53.91",
+        "http://10.2.53.115"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис справочной информации (НСИ)",
+      "hosts": [
+        "http://10.2.53.26"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис трактовок",
+      "hosts": [
+        "http://10.2.53.26"
+      ],
+      "port": 8082
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис поиска",
+      "hosts": [
+        "http://10.2.53.85"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис пользовательских подписок",
+      "hosts": [
+        "http://10.2.64.113",
+        "http://10.2.64.114"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис аудита",
+      "hosts": [
+        "http://10.2.64.113",
+        "http://10.2.64.114"
+      ],
+      "port": 8085
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Связь-банк эквайринг",
+      "hosts": [
+        "http://10.2.64.113",
+        "http://10.2.64.114"
+      ],
+      "port": 8081
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сбербанк эквайринг",
+      "hosts": [
+        "http://10.2.64.113",
+        "http://10.2.64.114"
+      ],
+      "port": 8082
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Эквайринг подарочных карт",
+      "hosts": [
+        "http://10.2.64.113",
+        "http://10.2.64.114"
+      ],
+      "port": 8083
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Почта банк эквайринг",
+      "hosts": [
+        "http://10.2.64.113",
+        "http://10.2.64.114"
+      ],
+      "port": 8084
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис уведомлений",
+      "hosts": [
+        "http://10.2.64.113",
+        "http://10.2.64.114"
+      ],
+      "port": 8090
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Rabbitmq-server сервиса пользовательских подписок",
+      "hosts": [
+        "http://10.2.64.243",
+        "http://10.2.64.244"
+      ],
+      "port": 8080
+    }
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Elasticsearch сервиса подписки",
+      "hosts": [
+        "http://10.2.53.147"
+      ],
+      "port": 9300
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Дерево добра",
+      "hosts": [
+        "http://10.2.64.246",
+        "http://10.2.64.247"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис подарочных карт",
+      "hosts": [
+        "http://10.2.64.76",
+        "http://10.2.64.77"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Онлайн-реклама",
+      "hosts": [
+        "http://10.2.64.250",
+        "http://10.2.64.251"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис Личного Кабинета Издателя",
+      "hosts": [
+        "http://10.2.53.40"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис Подписного Каталога",
+      "hosts": [
+        "http://10.2.53.114"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Бекофис подписного каталога",
+      "hosts": [
+        "http://10.2.53.108"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Сервис контрагентов",
+      "hosts": [
+        "http://10.2.53.174"
+      ],
+      "port": 8080
+    },
+    {
+      "environment": "TEST",
+      "zone": "INT",
+      "name": "Онлайн-подписка",
+      "hosts": [
+        "http://10.2.64.116",
+        "http://10.2.64.117"
+      ],
+      "port": 8080
+    }
+  ]
+}
